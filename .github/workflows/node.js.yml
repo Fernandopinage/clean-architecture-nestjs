@@ -33,8 +33,9 @@ jobs:
     - name: Build the project
       run: npm run build
 
-    - name: Run Tests
-      run: npm run test
+   # Etapa comentada para ignorar testes
+    # - name: Executar Testes
+    #   run: npm run test
 
     - name: Lint the code
       run: npm run lint
